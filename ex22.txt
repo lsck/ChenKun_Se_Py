@@ -1,0 +1,54 @@
+raw_input()	输入函数
+print 	输出函数
+#	注释
++ 	加号，两数加或拼接字符 
+- 	减号 
+ / 	除发或 1/4=0 1/4.0=0.25
+ *  	乘法 
+ % 	求模或取余 4%4=0 4%3=1
+ < 	小于 1<2 True
+ > 	 大于 2>1 True
+ <= 	小于等于 1<=1 True
+ >= 	大于等于 1>=1 True
+= 	贬值 a=1 a='1'
+== 	判断 1==1 True 1==2 False
+%d	格式化成整数后输出，%d %3 >>3  %d %3.2 >>3
+%s	格式化成字符串后输出，%s 'a' >>a
+%r	原样输出，%r 'a' >>'a'
+rand() 	四舍五入 rand(1.2)=1.0 rand(1.5)=2.0
+\	转义
+\n	换行 
+\\	\
+\'	'
+\"	"
+\t	一个Tab（四空格位）
+\a  	响铃符
+\b  	退格符
+\f 	进纸符
+\N	数据库中的字符名，其中 name 就是它的名字
+\r 	回车符
+\uxxxx 值为 16 位十六进制值xxxx 的字符
+\Uxxxxxxxx 值为 32 位十六进制值xxxx 的字符
+\v 	垂直制表符
+\ooo 	值为八进制值ooo 的字符
+\xhh 	值为十六进制数 hh 的字符
+''' '''	三引号，一段注释或忽略三引号中的其他符号无需转义
+int() 	转换成整型
+str()	转换成字符串
+float()	转换成实数
+from sys import argv 调用参数、解包、变量
+txt = open(filename) 打开文件
+txt = open(filename,w) 可写方式打开文件，若文件已存在，会清空原有数据
+txt = open(filename,w) 追加且可写方式打开文件，若文件已存在，不会清空原有数据只会追加
+txt = open(filename,r) 只读方式打开文件
+seek(0)		光标返回到0字节，即文件开头
+
+txt.close – 关闭文件。跟你编辑器的 文件->保存.. 一个意思。 
+txt.read – 读取文件内容。你可以把结果赋给一个变量。 
+txt.readline – 读取文本文件中的一行。 
+len() 	求长度
+txt.truncate – 清空文件，请小心使用该命令。 
+txt.write(stuff) – 将 stuff 写入文件。
+
+def 	函数定义
+return	函数返回结果
